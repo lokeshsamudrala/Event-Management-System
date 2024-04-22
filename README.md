@@ -1,17 +1,17 @@
-# Mind-Go-Benders
+# Event-Management-System
 
 Instructions to run the code
 
 ## Frontend Setup
-1. Go to Frontend folder and run the following commands
-   1. `npm i` Installs all the required dependencies
-   2. `npm start` Starts running on port number 3000 by default
+1. Navigate to the Frontend directory and execute the following commands:
+   1. `npm i` to install all necessary dependencies.
+   2. `npm start` to initiate the application, typically running on port 3000.
 
 ## Backend Setup
-2. Go to Backend folder
-   1. Download the scripts.sql file and import the database into the mysql db inorder to start with the inital data
-   2. To import mysql data first login to your mysql and create a database then use the command `mysql -u username -p your_database_name < dumpfilename.sql` to import the data into db
-   3. Change the user name and password and the database name as defined in your system
-   4. To run the backend, go to backend folder and run the command `go run .\main.go` 
+2. Proceed to the Backend directory.
+   1. Download the `scripts.sql` file and import the database into MySQL to initialize the initial data.
+   2. To import MySQL data, first log in to your MySQL instance. Then, create a database and utilize the command `mysql -u username -p your_database_name < dumpfilename.sql` to import the data.
+   3. Adjust the username, password, and database name according to your system configuration.
+   4. To launch the backend, navigate to the backend folder and execute the command `go run .\main.go`. 
    
-# Event-Management-System
+
