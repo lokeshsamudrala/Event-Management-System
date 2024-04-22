@@ -1,0 +1,148 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='password'] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: white;
+}
+
+.navBar button{
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid white;
+  width: 500px;
+}
+
+.navBar button:hover{
+  border: 2px solid #4CAF50;
+}
+
+/* .navBar{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} */
+
+.navBar button{
+  padding: 1rem;
+}
+
+.title{
+  color: white !important;
+  background-color: #345DAE;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+}
+
+.home-button{
+  background-color: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-buttons button {
+  width: 200px;
+  background-color: #3e8e41 ;
+  border: 2px solid #3e8e41;
+  padding: 1rem;
+}
+
+.user-buttons button:hover{
+  background-color: #4CAF50;
+  transition: 0.5s ease-in-out;
+}
+
+.navBars p{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.logout{
+  background-color: red !important;
+  border: 1px solid red !important;
+}
+
+.logout:hover{
+  background-color: white !important;
+  color: red !important;
+  transition: 0.5s ease-in-out;
+}
+
+.box{
+  background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    padding: 30px;
+    width: 350px;
+}
