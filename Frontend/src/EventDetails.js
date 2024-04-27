@@ -48,7 +48,7 @@ const EventDetails = ({ match }) => {
             <button className='home-button' onClick={goToHome}><h1 className='title'>Event Management System</h1></button>
             <button onClick={toggleEditMode}>{isEditable ? 'Save' : 'Edit'}</button> {/* Add edit button */}
             <div className="container">
-                <h1>Game Details</h1>
+                <h1>Event Details</h1>
                 {isEditable ? ( // Render editable inputs if in edit mode
                     <div>
                         <label>Name</label>
